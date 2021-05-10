@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.camera.CameraFragment">
+
+    <TextureView
+        android:id="@+id/texture_view_finder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/iv_processed"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/view_info"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/bg_result"/>
+
+    <TextView
+        android:id="@+id/tv_detailed"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@id/view_info"
+        app:layout_constraintRight_toRightOf="@id/view_info"
+        app:layout_constraintTop_toTopOf="@id/view_info"
+        app:layout_constraintBottom_toBottomOf="@id/view_info"
+        tools:text="aaaa 1111\nbbbb 2222"/>
+
+    <ImageView
+        android:id="@+id/iv_category"
+        android:layout_height="120dp"
+        android:layout_width="150dp"
+        android:contentDescription="@string/cd_iv_category"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view_info"
+        app:layout_constraintBottom_toBottomOf="@id/view_info"
+        tools:background="@drawable/ic_recyclable"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:textColor="@color/text_Light"
+        app:layout_constraintLeft_toRightOf="@id/iv_category"
+        app:layout_constraintRight_toRightOf="@id/view_info"
+        app:layout_constraintTop_toTopOf="@id/view_info"
+        tools:text="一次性快餐盒"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintLeft_toRightOf="@id/iv_category"
+        app:layout_constraintRight_toRightOf="@id/view_info"
+        app:layout_constraintTop_toBottomOf="@id/tv_result"
+        app:layout_constraintBottom_toBottomOf="@id/view_info">
+
+    <TextView
+        android:id="@+id/tv_dispose_requirement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/text_Dark"
+        tools:text="@string/m_req_recyclable"/>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

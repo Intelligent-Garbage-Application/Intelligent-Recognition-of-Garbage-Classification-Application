@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="labels">
+        <item>Fastfood Box</item>
+        <item>Plastic</item>
+        <item>Cigarette</item>
+        <item>Toothpicks</item>
+        <item>pots</item>
+        <item>chopsticks</item>
+
+        <item>wastefood</item>
+        <item>bones</item>
+        <item>Fruit Peel</item>
+        <item>Fruit pulp</item>
+        <item>Tea Leaves</item>
+        <item>vegitables</item>
+        <item>Eggshell</item>
+        <item>Fishbone</item>
+
+        <item>Powerbank</item>
+        <item>Bag</item>
+        <item>Makeupbottole</item>
+        <item>PlasticToy</item>
+        <item>Plastic bowls</item>
+        <item>Plastic hangers</item>
+        <item>Paper bags</item>
+        <item>Plug wires</item>
+        <item>Old Clothes</item>
+        <item>Pull-top can</item>
+        <item>Pillow</item>
+        <item>Plush toys</item>
+        <item>Shampoo bottle</item>
+        <item>Glasses</item>
+        <item>Leather Shoes</item>
+        <item>Cutting Board</item>
+        <item>Cardboard</item>
+        <item>Spice Bottle</item>
+        <item>Wine bottle</item>
+        <item>Metal Food Can</item>
+        <item>Pot</item>
+        <item>Oil drums</item>
+        <item>Drink bottle</item>
+
+        <item>Battery</item>
+        <item>Ointment</item>
+        <item>Medicine</item>
+    </string-array>
+
+</resources>

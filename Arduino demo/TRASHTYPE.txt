@@ -1,0 +1,50 @@
+@01,xiao zhi xiang,001,$
+@02,su liao ping,001,$
+@03,fei tie,001,$
+@04,tu shu,001,$
+@05,huai shou ji,001,$
+@06,bo li ping,001,$
+@07,jiu shui guan,001,$
+@08,xi yi ji,001,$
+@09,dian shi ji,001,$
+@10,dian fan bao,001,$
+
+@11,guo ke,002,$
+@12,ni tu,002,$
+@13,gua zi ke,002,$
+@14,fei shui,002,$
+@15,tao ci,002,$
+@16,yi ci xing kuai zi,002,$
+@17,wei sheng zhi,002,$
+@18,yan tou,002,$
+@19,can jing zhi,002,$
+@20,ya qian,002,$
+
+@21,sheng cai,003,$
+@22,sheng fan,003,$
+@23,cai ye,003,$
+@24,guo pi,003,$
+@25,ge ye fan,003,$
+@26,gu tou,003,$
+@27,ji dan ke,003,$
+@28,cha ye zha,003,$
+@29,cai gen,003,$
+@30,ping guo he,003,$
+
+@31,deng pao,004,$
+@32,dian chi,004,$
+@33,yao ping,004,$
+@34,deng guan,004,$
+@35,you qi tong,004,$
+@36,hua zhuang pin,004,$
+@37,lao shu yao,004,$
+@38,zhi jia you,004,$
+@39,sha chong ji,004,$
+@40,nong yao,004,$
+
+@49,xiao ding dang,254,$
+
+@41,chu yu la ji,255,$
+@42,you hai la ji,255,$
+@43,ke hui shou la ji,255,$
+@44,qi ta la ji,255,$

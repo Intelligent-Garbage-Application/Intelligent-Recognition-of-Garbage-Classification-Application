@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Claasifer</string>
+
+    <string name="m_camera_permission_denied">Please access Camera</string>
+    <string name="c_result">%1$.4f %2$s</string>
+    <string name="c_unknown">Unkonwn</string>
+    <string name="cd_iv_category">Classify Icon</string>
+    <string name="m_req_recyclable">
+        •Clean and dry to avoid contamination\n•Scrap paper as flat as possible\n•Empty the contents, clean and flatten to put</string>
+    <string name="m_req_hazardous">
+        • if easy to break, please lightly with the packaging or wrapping\n•If volatile, please seal and put in</string>
+    <string name="m_req_household_food">
+        •Waste like milk should be poured directly into the downspout\n•Wet waste with packaging should be separated after removing the packaging</string>
+    <string name="m_req_residual">•Drain as much water as possible\n•Difficult to identify the type of household waste into the dry waste container</string>
+
+</resources>
